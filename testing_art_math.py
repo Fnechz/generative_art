@@ -144,7 +144,7 @@ def plotColor(redExp, greenExp, blueExp, pixelsPerUnit=150):
 
 
 def makeImage(numPics=10):
-    with open("eqns.txt", 'w') as eqnsFile:
+    with open("equations.txt", 'w') as eqnsFile:
 
         for i in range(numPics):
             redExp = buildExpr()
